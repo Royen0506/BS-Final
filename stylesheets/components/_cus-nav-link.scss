@@ -1,0 +1,24 @@
+.cus-nav-link {
+    color: $dark;
+    transition: all 0.3s;
+
+    &.active {
+        color: $warning;
+    }
+}
+
+.nav-link-decoline {
+    display: none;
+}
+
+@include media-breakpoint-up(lg) {
+
+    .cus-nav-link {
+
+        &:hover {
+            .nav-link-decoline {
+                display: inline-block;
+            }
+        }
+    }
+}

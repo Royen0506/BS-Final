@@ -1,0 +1,11 @@
+.cus-pagination {
+
+    transition: all 0.2s;
+
+    &:hover,
+    &.active {
+        color: $warning;
+    }
+
+
+}

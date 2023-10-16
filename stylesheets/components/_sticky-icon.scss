@@ -1,0 +1,14 @@
+#icon2 {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        opacity: 0;
+
+    }
+}
+
+.icon-text-position {
+    bottom: 165px;
+    right: 50px;
+}

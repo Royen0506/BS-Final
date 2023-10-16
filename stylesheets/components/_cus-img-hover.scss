@@ -1,0 +1,14 @@
+        .image-container {
+            overflow: hidden;
+        }
+
+        .image-overlay {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            bottom: 0;
+            left: 0;
+        }
+
+        .image-container:hover .image-overlay {
+            opacity: 1;
+        }
