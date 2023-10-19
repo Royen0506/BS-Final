@@ -1,14 +1,15 @@
 .card-img {
     opacity: 0;
-    transition: all 0.5s;
+    transition: all 0.5s ease;
 }
 
 .cus-card {
     box-shadow: $box-shadow-sm;
-    transition: all 0.5s;
+    transition: all 0.5s ease;
 }
 
 .cus-card:hover {
+
 
     box-shadow: $box-shadow;
     scale: 1.03;
